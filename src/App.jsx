@@ -52,8 +52,6 @@ export default function App() {
     >
       {/* LOGO con enlace */}
       <a
-        href="https://drive.google.com/file/d/1YkKlgl2atHdvMf3Hce1bpcO-JsjWpgK5/view?usp=sharing"
-        target="_blank"
         rel="noopener noreferrer"
         style={{
           display: "inline-block",
@@ -68,7 +66,7 @@ export default function App() {
         }}
       >
         <img
-          src="src/assets/avocado.jpeg"
+          src="/avocado.jpeg"
           alt="Avocado Logo"
           style={{
             width: "100%",
