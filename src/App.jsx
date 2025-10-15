@@ -37,7 +37,7 @@ export default function App() {
         width: "100vw",
         margin: 0,
         background:
-          "linear-gradient(160deg, #A8E6CF 0%, #56ab2f 50%, #379237 100%)", // 🌿 degradado verde moderno
+          "linear-gradient(160deg, #A8E6CF 0%, #56ab2f 50%, #379237 100%)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -50,9 +50,13 @@ export default function App() {
         overflowX: "hidden",
       }}
     >
-      {/* LOGO */}
-      <div
+      {/* LOGO con enlace */}
+      <a
+        href="https://drive.google.com/file/d/1YkKlgl2atHdvMf3Hce1bpcO-JsjWpgK5/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
         style={{
+          display: "inline-block",
           width: "140px",
           height: "140px",
           borderRadius: "50%",
@@ -72,7 +76,7 @@ export default function App() {
             objectFit: "cover",
           }}
         />
-      </div>
+      </a>
 
       {/* TÍTULO */}
       <h1
